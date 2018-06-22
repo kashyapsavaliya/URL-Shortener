@@ -1,0 +1,13 @@
+  {
+    
+    "name": "URL Shortener",
+    "version": "1.0",
+    "description": "URL shortener using Bit.ly API",
+    
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+
+    "manifest_version": 2
+
+  }
