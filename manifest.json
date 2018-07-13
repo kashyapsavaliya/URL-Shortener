@@ -1,13 +1,12 @@
-  {
-    
-    "name": "URL Shortener",
-    "version": "1.0",
-    "description": "URL shortener using Bit.ly API",
-    
-    "browser_action": {
-        "default_popup": "popup.html"
-    },
-
-    "manifest_version": 2
-
-  }
+{
+   "name":"URL Shortener",
+   "version":"1.0",
+   "description":"URL shortener using Bit.ly API",
+   "browser_action":{
+      "default_popup":"popup.html"
+   },
+   "permissions":[
+      "tabs"
+   ],
+   "manifest_version":2
+}
