@@ -6,7 +6,9 @@
       "default_popup":"popup.html"
    },
    "permissions":[
-      "tabs"
+      "tabs",
+      "clipboardRead",
+      "clipboardWrite"
    ],
    "manifest_version":2
 }
