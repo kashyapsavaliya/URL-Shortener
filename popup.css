@@ -1,0 +1,41 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #007ea0;
+  border: 5px solid #b3c2bf;
+  border-radius: 25px;
+  border-color: black;
+}
+
+#title {
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
+#copy:hover {
+  background-color: #adc2be !important;
+}
+
+#url {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  padding: 10px;
+}
+
+#copy {
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 2em;
+  border: 5px solid black;
+  text-decoration: none;
+  text-align: left;
+  background-color: #bce2db;
+  color: #3a3833;
+}
+
+#btn {
+  text-align: center;
+  padding-bottom: 20px;
+}

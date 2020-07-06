@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<head>
 
+<head>
    <meta charset="utf-8">
    <meta http-equiv="x-ua-compatible" content="ie=edge">
    <title></title>
    <meta name="description" content="">
    <script src="jquery-3.3.1.js"></script>
    <script src="background.js"></script>
-
+   <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
+
 <body>
-
-   <p>URL:<p>
-   <p id="url"></p>
-   <button id="copy">COPY</button>
-
+   <div>
+      <h1 id="title">URL:</h1>
+      <h2 id="url"></h2>
+      <div id="btn">
+         <input type="image" src="copy-regular.svg" class="far fa-copy" id="copy" alt="Submit" width="48" height="48">
+      </div>
+   </div>
 </body>
+
 </html>
